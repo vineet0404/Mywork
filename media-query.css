@@ -1,0 +1,191 @@
+/*------------------------------
+        Media Query
+------------------------------*/
+
+@media all and (max-width: 1200px) {
+    /* Everything acceptable */
+}
+
+
+@media all and (max-width: 991px) {
+    
+    .heading-div h1 {
+        font-size: 25px;
+    }
+    
+    .nav-menu a {
+        font-size: 16px;
+        padding: 27px 10px
+    }
+    
+    .header-section h2 {
+        font-size: 35px;
+    }
+    
+    .header-section p {
+        font-size: 16px;
+    }
+    
+    .personal-info img {
+        width: 30%;
+    }
+    
+    .personal-info h2 {
+        font-size: 30px;
+    }
+    
+    .personal-info h3 {
+        font-size: 25px;
+    }
+    
+    .personal-info p {
+        font-size: 16px;
+        max-width: 700px;
+    }
+    
+    .abilities { 
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 600px;
+    }
+    
+    .ability {
+        margin-right: 0;
+    }
+    
+    .ability i {
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    
+    .ability p {
+        margin-top: 15px;
+    }
+    
+    .works h2 {
+        font-size: 30px;
+    }
+    
+    .works-gallery  {
+        justify-content: space-around;
+    }
+    
+    .contact h2 {
+        font-size: 30px;
+    }
+    
+    form .button {
+        font-size: 16px;
+    }
+    
+    footer p {
+        font-size: 14px;
+    }
+    
+    .works-gallery img {
+        width: 48%;
+    }
+    
+        .portfolio-items img {
+        width: 50%;
+        align-content: center;
+    }
+    .social a{
+        padding: 15px;
+        font-size: 10px;
+    }
+    .social img{
+        width: 17px;
+    }/*------------myway--------------*/
+
+.myway img{
+    width: 150px;
+}
+.myway{
+    text-align: center;
+    border: 50px solid white;
+}
+.one{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: lightgreen;
+}
+
+.two{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: hotpink;
+}
+
+.three{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: yellow;
+}
+
+.break{
+    padding: 10px;
+}
+
+
+}
+
+
+@media all and (max-width: 768px) {
+    /* Everything acceptable */
+}
+
+
+@media all and (max-width: 480px) {
+    .heading-div {
+        flex-direction: column;
+    }
+    
+    .nav-menu {
+        margin-top: 25px;
+    }
+    
+    .nav-menu a {
+        padding: 21px 10px
+    }
+    
+    .works-gallery img {
+        width: 98%;
+    }
+    .portfolio-items img{
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .portfolio-items{
+        text-align: center;
+    }
+    
+}
+
+
+
+@media all and (max-width: 320px) {
+    /* Everything acceptable */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
